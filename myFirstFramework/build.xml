@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name ="running simple project" default="create" basedir="." >
+<property name="test.home" value="${basedir}"/>
+
+<target name="create" depends="delete">
+<echo>This is ANT Build Running</echo>
+<mkdir dir="Libs"/>
+<mkdir dir="logs"/>
+<mkdir dir="Report"/>
+
+</target>
+
+<target name="delete">
+<delete dir="Libs"/>
+<delete dir="logs"/>
+
+</target>
+
+<target name="compile" >
+<javac srcdir="./src/learnautomation" destdir="./src/learnautomation" includes="firstlearn.java" includeantruntime="true"/> 
+</target>
+
+	<target name="run" depends="compile">
+	<java classname="firstlearn" fork="true"/> 
+	</target>
+	
+	
+
+</project>

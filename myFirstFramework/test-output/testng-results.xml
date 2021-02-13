@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-26T23:49:41 SGT" name="Default suite" finished-at="2021-01-26T23:49:48 SGT" duration-ms="6567">
+    <groups>
+    </groups>
+    <test started-at="2021-01-26T23:49:41 SGT" name="Default test" finished-at="2021-01-26T23:49:48 SGT" duration-ms="6567">
+      <class name="com.POM.AnnotationEx">
+        <test-method is-config="true" signature="loginflip()[pri:0, instance:com.POM.AnnotationEx@101952da]" started-at="2021-01-26T23:49:29 SGT" name="loginflip" finished-at="2021-01-26T23:49:41 SGT" duration-ms="11963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginflip -->
+        <test-method signature="searchmob()[pri:0, instance:com.POM.AnnotationEx@101952da]" started-at="2021-01-26T23:49:41 SGT" name="searchmob" finished-at="2021-01-26T23:49:44 SGT" duration-ms="3217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmob -->
+        <test-method signature="searchmobile()[pri:0, instance:com.POM.AnnotationEx@101952da]" started-at="2021-01-26T23:49:44 SGT" name="searchmobile" finished-at="2021-01-26T23:49:48 SGT" duration-ms="3317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmobile -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.POM.AnnotationEx@101952da]" started-at="2021-01-26T23:49:48 SGT" name="logout" finished-at="2021-01-26T23:49:48 SGT" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.POM.AnnotationEx -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
